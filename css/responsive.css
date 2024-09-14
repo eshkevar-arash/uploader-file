@@ -1,0 +1,104 @@
+
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.container{
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+@media screen and (min-width: 576px) {
+    .container {
+        width: 54rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 72rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        width: 96rem;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 114rem;
+    }
+
+}
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 137rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .box-title{
+        font-size: 2rem;
+    }
+    .file-image{
+        width: 64px;
+        height: 67px;
+    }
+    .file-list{
+        max-height: 26rem;
+    }
+    .center-top__title{
+        font-size: 1.7rem;
+    }
+    .center-top__bag{
+        font-size: 1.5rem;
+    }
+    .right svg{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .file-box{
+        width: calc(100% - 3rem);
+    }
+}
+@media screen and (max-width: 576px) {
+    .drag-box label{
+        font-size: 2rem;
+        height: 12.5rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .box-title{
+        font-size: 1.9rem;
+    }
+    .file-image{
+        width: 44px;
+        height: 47px;
+    }
+    .file-list{
+        max-height: 22rem;
+    }
+    .center-top__title{
+        font-size: 1.5rem;
+    }
+    .center-top__bag{
+        font-size: 1.2rem;
+    }
+    .right svg{
+        width: 24px;
+        height: 24px;
+    }
+}
